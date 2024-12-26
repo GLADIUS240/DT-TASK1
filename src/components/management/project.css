@@ -1,0 +1,21 @@
+.btn,.btn:hover,
+.btn:focus,
+.btn:active{
+  background-color: #0029FF;
+  color: #fff;
+  transition: none;
+  border: none;
+}
+
+.title{
+  margin-bottom: 1.0625rem;
+}
+
+.text{
+  background-color: #E9ECEF;
+  padding: 1.5625rem 1.6875rem;
+  margin-top: 2.31rem;;
+}
+.wrap-main,.hero-txt{
+    margin-inline: 11.7rem;
+}

@@ -1,30 +1,26 @@
 import { FunctionComponent } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faInfoCircle } from '@fortawesome/free-solid-svg-icons';
 import './asset.css';
 import React from 'react';
 
 
 const Asset:FunctionComponent = () => {
   	return (
-    		<div className="asset1">
-      			<div className="asset1Child" />
-      			<div className="asset1Item" />
-      			<div className="asset1Inner" />
-      			<div className="descriptionWriteContainer">
-        				<span className="description">
-          					<span>{`Description `}</span>
-          					<span className="span">:</span>
-        				</span>
-        				<span className="writeA300400WordArticle">
-          					<span className="span1">{` `}</span>
-          					<span>{`Write a 300 - 400 word article from your thread . Publish your understanding and showcase your understanding to the entire world `}</span>
-        				</span>
-      			</div>
-      			<div className="structureYourPointers">Structure your Pointers</div>
-      			<div className="ellipseParent">
-        				<div className="instanceChild" />
-        				<div className="i">i</div>
-      			</div>
-    		</div>);
+		<div className="asset">
+			<div className="as-title  d-flex align-items-center justify-content-center">
+				<h5 className='text-center mb-0'>Testfkensf</h5>
+				<FontAwesomeIcon icon={faInfoCircle} className="a-ico"/>
+			</div>
+			<div className="as-des">
+			Description:{}
+			</div>
+			<div className="as-container rounded-bottom">
+
+			</div>
+
+		</div>
+    		);
 };
 
 export default Asset;
