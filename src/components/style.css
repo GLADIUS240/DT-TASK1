@@ -1,0 +1,18 @@
+.icon-blue{
+    background-color: #3683F0;
+    color:#fffffc;
+    padding: 0.4em;
+    border-radius: 50%;
+}
+.user-profile{
+    width: 1.875rem;
+    border-radius: 50%;
+}
+.nav-link{
+    margin: 0 .3rem 0 0;
+    padding: 0;
+}
+.menu{
+    color: #3683F0;
+    align-items: center;
+}

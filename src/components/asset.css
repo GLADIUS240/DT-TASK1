@@ -1,0 +1,103 @@
+.asset1Child {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    background-color: #fdfdfd;
+}
+.asset1Item {
+    position: absolute;
+    height: 69.14%;
+    width: 100.21%;
+    top: 31.03%;
+    right: -0.21%;
+    bottom: -0.17%;
+    left: 0%;
+    border-radius: 0px 0px 15px 15px;
+    background-color: #fdfdfd;
+    border: 1px solid #d1cece;
+    box-sizing: border-box;
+}
+.asset1Inner {
+    position: absolute;
+    height: 8.62%;
+    width: 100%;
+    top: 0.17%;
+    right: 0%;
+    bottom: 91.21%;
+    left: 0%;
+    border-radius: 15px 15px 0px 0px;
+    background-color: #000;
+}
+.span {
+    font-size: 15px;
+}
+.description {
+    font-weight: 600;
+}
+.span1 {
+    font-weight: 600;
+    font-family: Poppins;
+}
+.writeA300400WordArticle {
+    font-size: 14px;
+}
+.descriptionWriteContainer {
+    position: absolute;
+    height: 14.31%;
+    width: 90.21%;
+    top: 16.9%;
+    left: 6.04%;
+    letter-spacing: 0.02em;
+    display: inline-block;
+}
+.structureYourPointers {
+    position: absolute;
+    top: 2.59%;
+    left: 30.21%;
+    letter-spacing: 0.02em;
+    font-weight: 600;
+    color: #fff;
+}
+.instanceChild {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    border-radius: 50%;
+    background-color: #fff;
+}
+.i {
+    position: absolute;
+    top: 4.55%;
+    left: 40.91%;
+    letter-spacing: 0.02em;
+}
+.ellipseParent {
+    position: absolute;
+    height: 3.79%;
+    width: 4.58%;
+    top: 2.59%;
+    right: 5.83%;
+    bottom: 93.62%;
+    left: 89.58%;
+    font-family: Poly;
+}
+.asset1 {
+    width: 30rem;
+    position: relative;
+    height: 36.25rem;
+    text-align: left;
+    font-size: 16px;
+    color: #000;
+    font-family: 'Open Sans';
+}
+
