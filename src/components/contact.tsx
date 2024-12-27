@@ -6,7 +6,7 @@ import React from "react";
 
 function Contact(){
     return (
-        <div className=" fixed-bottom">
+        <div className="ctx ">
              <div className='d-flex align-items-end flex-column mb-n1 '>
             <a href="#" className='p-2 align-right mb-0'>
                 <img src={questionmark} className="icn" alt="" />

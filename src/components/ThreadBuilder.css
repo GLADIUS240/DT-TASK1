@@ -1,0 +1,120 @@
+.thread-builder {
+    padding: 1.75rem;
+    border: none;
+    border-radius: 8px;
+    margin: 16px 0;
+  }
+  
+  .thread-row {
+    display: flex;
+    gap: 1.6875rem;
+    margin-bottom: 12px;
+  }
+  
+  textarea {
+    flex: 1;
+    resize: none;    
+    height: 4.3125rem;
+    padding: 7px;
+    width:100%;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    border-radius: 10px;
+    border: none;
+    color:#6C757D;
+    background: #Fafafa;
+    box-shadow: 1px 3px 8px 0px rgba(0, 0, 0, 0.25);
+    z-index: 5;
+    overflow: auto;
+    scrollbar-width: none;
+    font-family: "Open Sans";
+    font-size:.75rem ;
+    outline: none;
+   
+  }
+  .thread-row textarea:-webkit-scrollbar {
+    display: none;
+  }
+  .add-btn {
+    display: block;
+    margin-top: 16px;
+    padding: 8px 12px;
+    background-color: #0029FF;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 1.25rem;
+    font-family: "Roboto";
+  }
+  
+  .add-btn:hover {
+    background-color: #0029FF;
+  }
+  
+
+.sth,.int{
+  width:auto;
+  height: 4.0625rem;
+  border-radius: 10px;
+  border:none;
+  opacity: 0.5;
+  background: rgba(0, 0, 0, 0.05);
+  box-shadow: 1px 3px 8px 0px rgba(0, 0, 0, 0.25);
+  overflow: visible;
+  margin-bottom: 1.25rem;
+}
+
+
+label{
+padding-left: 0.4325rem;
+opacity: 100%;
+color: black;
+font-size:.75rem ;
+font-family: "Open Sans";
+}
+
+.opt{
+  margin-bottom: 0.9375rem;
+  margin-left: 5.0625rem;
+  display: flex;
+  gap: 1.6875rem;
+}
+
+.op-btn {
+  width:5.6875rem;
+  height: 2rem;
+  display: inline-block;
+  margin-top: 16px;
+  padding: .5rem;
+  background-color: #fff;
+  color: black;
+  font-family: " Poppins";
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  white-space: nowrap;
+  margin-bottom: 1.25rem;
+  font-family: "Roboto";
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+
+}
+
+.op-btn:hover {
+  background-color: #fff;
+}
+.choice{
+  display: flex;
+  gap: 0.875rem;
+  height: 1.25rem;
+  width:7.343125rem;
+  font-size: 1.25rem;
+}
+.buttn{
+  gap: 1.0625rem;
+  display: flex;
+}

@@ -37,3 +37,10 @@ a.p-2{
     margin-top: 1.875rem;
     white-space: nowrap;
 }
+
+.ctx{
+    width:fit-content;
+    position: fixed;
+    bottom: 1.125rem;
+    right: 3.25rem; 
+}
