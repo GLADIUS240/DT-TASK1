@@ -24,6 +24,9 @@
 .as-des{
     height: 5.5rem;
     background-color: #fdfdfd;
+    margin:1rem;
+    text-align: left;
+    padding-top: .25rem;
 }
 .as-container{
     height:24.9375rem;

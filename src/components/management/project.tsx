@@ -38,7 +38,14 @@ function ProjectManagement() {
                           description={description}
                           learningOutcomes={learning_outcomes} tasks={projectData.tasks}            />
           )}
-          <Asset />
+           {task && task.assets && task.assets.length > 0 && (
+            <div className="assets-container row">
+              {task.assets.map((asset, index) => (
+                <div className="col-6" key={asset.asset_id}>
+                  <Asset asset={asset} />
+                </div>
+              ))}</div>
+          )}
         </div>
       )}
     </>
