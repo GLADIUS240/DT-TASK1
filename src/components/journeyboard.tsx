@@ -2,13 +2,15 @@ import React, { useState } from "react";
 import { faArrowCircleLeft, faArrowCircleRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-const JourneyBoard = () => {
+const JourneyBoard = ({ taskId, description, learningOutcomes, tasks }) => {
   const [isExpanded, setIsExpanded] = useState(false);
 
   function toggle() {
     setIsExpanded((prev) => !prev);
     console.log(isExpanded ? "Collapsed JourneyBoard" : "Expanded JourneyBoard");
   }
+
+  const taskCount = Array.isArray(tasks) ? tasks.length : 0;
 
   return (
     <>
@@ -48,13 +50,12 @@ const JourneyBoard = () => {
         {isExpanded && (
           <div className="as-des p-3">
             <ul className="main">
-              <li>Explore the world of management</li>
+              <li>{description}</li>
             </ul>
             <ul>
-              <li>Technical Project Management</li>
-              <li>Threadbuild</li>
-              <li>Structure your pointers</li>
-              <li>4SA Method</li>
+              {learningOutcomes.map((outcome, index) => (
+                <li key={index}>{outcome}</li>
+              ))}
             </ul>
           </div>
         )}
@@ -81,7 +82,7 @@ const JourneyBoard = () => {
               transition: "left 0.3s ease-in-out",
             }}
           >
-            1
+            {taskCount}
           </div>
         )}
       </div>
