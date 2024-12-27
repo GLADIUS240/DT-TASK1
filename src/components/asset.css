@@ -30,3 +30,25 @@
     background-color: #FDFDFD;
     border-top: 0.0625rem solid #D1CECE;
 }
+
+.jb.asset{
+    width:24.5rem;
+    height:46.375rem;
+    position: fixed;
+    top: 0;
+    left:0;
+    z-index: 999;
+    margin-left:0;
+}
+.main{
+    margin-top: 1.3125rem;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.5rem;
+    letter-spacing: 0.02rem;
+}
+a.clk{
+    color: white;
+    cursor: pointer;
+}

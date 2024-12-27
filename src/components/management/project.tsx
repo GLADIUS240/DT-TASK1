@@ -1,6 +1,7 @@
 import React from "react";
 import Asset from "../asset-component";
 import  './project.css'
+import JourneyBoard from "../JourneyBoard";
 
 function ProjectManagement(){
 return (
@@ -17,6 +18,7 @@ return (
         <h4 className="fw-bold ">Explore the world of management</h4>
         <p>As a project manager, you play an important reole in leading a project through initiation, planning, execution, monitoring, controlling and completion. How? Do you want to manage each and every step of your life?</p>
     </div>
+        <JourneyBoard/>
         <Asset/>
     </div>
     

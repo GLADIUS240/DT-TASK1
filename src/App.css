@@ -1,0 +1,39 @@
+.mar{
+    margin-right: 3.25rem;
+}
+a.p-2{
+    scale: 0.75;
+}
+.board {
+    position: fixed;
+    top: 4.75rem;
+    right: 0;
+    background-color: #fff;
+    width: 5.9375rem;
+    height: 24.625rem;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+.notice-board{
+    margin-right: 2.8125rem;
+    background-color: black;
+    color: white;
+    height: 24.625rem;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.notice-board .close-icon {
+    font-size: 34px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.notice-board .text-vertical {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    font-size: 16px;
+    letter-spacing: 0.32px;
+    margin-top: 1.875rem;
+    white-space: nowrap;
+}
