@@ -82,7 +82,7 @@ const Asset: FunctionComponent<AssetProps> = ({ asset }) => {
           </div>
         )}
         {asset.asset_type ==="display_asset" && asset.asset_content_type === 'article' && (
-          <div className="ast-article"> Sub Threads</div>
+          <div className="ast-article"></div>
         )}
         
       </div>

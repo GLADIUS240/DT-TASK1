@@ -44,3 +44,11 @@ a.p-2{
     bottom: 1.125rem;
     right: 3.25rem; 
 }
+.ctx .dt{
+    width: 5.3125rem;
+    height: fit-content;
+}
+
+img.icn{
+    scale: .75;
+}
